@@ -1,0 +1,15 @@
+; D:\Working\isoloader_encoderIFMrm9000\pjt_pcan\midge_d19_encoder.xmt
+; CAN messages saved by PCAN-View 4.1.3
+;
+; Columns descriptions:
+; ~~~~~~~~~~~~~~~~~~~~~
+; +Message ID
+; |            +Cycle time in ms (0=manual)
+; |            |  +Data length
+; |            |  |  +Frame type
+; |            |  |  |  +Message data
+; |            |  |  |  |
+620h           0  5  D 2Fh 00h 30h 00h 11h ; set_nodeID --> always add 1h
+620h           0  5  D 2Fh 01h 30h 00h 04h ; set_baudrate
+620h           0  8  D 2Bh 17h 10h 00h F4h 01h 00h 00h ; set_heartbeat
+620h           0  8  D 23h 10h 10h 01h 73h 61h 76h 65h ; set_save
